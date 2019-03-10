@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Soniriya", "Journalism at DSJ","Photographer", "Love Simplicity"],
+        strings: ["Soniriya","A proud Bihari","Foodie","An enthusiast", "Journalism at DSJ","Photographer", "Love Simplicity"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
