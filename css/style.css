@@ -150,8 +150,8 @@ img { max-width: 100%; }
 }
 /*----- background ------*/
 .grey-bg {
-  background-color: rgb(215, 204, 200);
-  /*background: #f6f6f6;*/
+  /*background-color: rgb(215, 204, 200);*/
+  background: #f6f6f6;
   padding: 120px 0;
   display: block;
 }
@@ -471,7 +471,7 @@ p {
 }
 #home .typed {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 30px;
   line-height: 26px;
   letter-spacing: 1.5px;
   margin: 0 auto;
@@ -507,7 +507,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/hero1.jpeg');
+  background: url('../images/hero1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -528,7 +528,7 @@ p {
 .hero-content{
   position: absolute;
   text-align: center;
-  min-width: 300px;
+  min-width: 350px;
   left: 50%;
   top: 50%;
   padding: 65px;
