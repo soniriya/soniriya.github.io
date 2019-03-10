@@ -151,7 +151,8 @@ img { max-width: 100%; }
 /*----- background ------*/
 .grey-bg {
   /*background-color: rgb(215, 204, 200);*/
-  background: #f6f6f6;
+  /*background: #f6f6f6;*/
+  background: #eee;
   padding: 120px 0;
   display: block;
 }
