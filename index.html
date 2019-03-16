@@ -6,10 +6,13 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Soniriya Portfolio" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- <meta content="BdgPixel" name="author"> -->
     <!--Fav-->
     <link href="images/favicon.ico" rel="shortcut icon">
-    
+<style>
+.mySlides {display:none}
+</style>
     <!--styles-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
@@ -17,6 +20,7 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/w3.css" rel="stylesheet">
 
     
     <!--fonts google-->
@@ -60,9 +64,6 @@
 			<a data-scroll="" href="#services">
               <span>Achievements</span>
             </a>
-             <!-- <a data-scroll="" href="#employement">
-              <span>Projects</span>
-            </a> -->
             <a data-scroll="" href="#skill">
               <span>Skills</span>
             </a>
@@ -72,6 +73,9 @@
             
 			 <a data-scroll="" href="#work">
               <span>Gallery</span>
+            </a>
+            <a data-scroll="" href="#capture">
+              <span>My Capture</span>
             </a>
             <a data-scroll="" href="#testimonial">
               <span>favorite Quotes</span>
@@ -552,8 +556,49 @@
           </div>
         </section>
         <!--/.WORK END-->
-		
-		
+
+  <section class="grey-bg mar-tm-10" id="capture">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>My Capture</span>
+                </h3>
+                <p class="content-detail">
+                  
+                </p>
+              </div>
+		<div class="col-md-9 content-right" style="max-width:800px">
+  <img class="mySlides" src="images/capture (1).jpeg" height="600" width="1200">
+  <img class="mySlides" src="images/capture (2).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (7).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (4).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (5).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (9).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (3).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (8).jpeg" height="600" width="1000">
+  <img class="mySlides" src="images/capture (6).jpeg" height="600" width="1000">
+</div>
+	<div class="w3-center" style="display:block;padding-left: 285px;">
+    <div>
+  <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+  <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+</div>
+  <div>
+    <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+    <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+    <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+    <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
+    <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
+    <button class="w3-button demo" onclick="currentDiv(6)">6</button> 
+    <button class="w3-button demo" onclick="currentDiv(7)">7</button> 
+    <button class="w3-button demo" onclick="currentDiv(8)">8</button> 
+    <button class="w3-button demo" onclick="currentDiv(9)">9</button> 
+  <div>
+</div>
+</div>
+</div>
+</section>
 		
 		
 
@@ -594,8 +639,8 @@
                       <p class="people">
                         Valerie Bertinelli
                       </p>
-                    </div>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -690,5 +735,6 @@
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/image_slider.js" type="text/javascript"></script>
   </body>
 </html>

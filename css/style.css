@@ -529,7 +529,7 @@ p {
 .hero-content{
   position: absolute;
   text-align: center;
-  min-width: 350px;
+  min-width: 360px;
   left: 50%;
   top: 50%;
   padding: 65px;
@@ -910,6 +910,11 @@ ul.portfolio-image li .desc{
 }
 /*---------- f. quote -----------*/
 #about{
+  min-height: 650px;
+  display: inline-block;
+  width: 100%;
+}
+#capture{
   min-height: 650px;
   display: inline-block;
   width: 100%;
