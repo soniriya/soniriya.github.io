@@ -92,7 +92,6 @@
         }
       });
     }
-
     function toggleMenu() {
       if (isOpen) {
         classie.remove(bodyEl, "show-menu");
@@ -201,7 +200,9 @@
       }
     });
   }
-
+  function sendMail(event) {
+    window.open("mailto:saurya.anand21@gmail.com?subject=subject&body=body");
+  }
   window.onload = inits();
 
   //nav-active
@@ -222,3 +223,6 @@
     });
   }
 })(jQuery);
+function sendMail(event) {
+  window.open("mailto:saurya.anand21@gmail.com?subject=subject&body=body");
+}
